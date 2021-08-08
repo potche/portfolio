@@ -1,0 +1,40 @@
+.box-shadow-full {
+	padding: 3rem 1.25rem;
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 3rem;
+	z-index: 2;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about .content h3 {
+	font-weight: 700;
+	font-size: 26px;
+	color: #173b6c;
+}
+
+.about .content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.about .content ul li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.about .content ul strong {
+	margin-right: 10px;
+}
+
+.about .content ul i {
+	font-size: 16px;
+	margin-right: 5px;
+	color: #149ddd;
+	line-height: 0;
+}
+
+.about .content p:last-child {
+	margin-bottom: 0;
+}
