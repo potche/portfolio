@@ -28,10 +28,9 @@ export class AboutComponent implements OnInit {
       'interactuaba con la computador y todo lo que podía hacer, posteriormente con ayuda de los discos de AOL '+
       'comenzó mi interés por el <strong>desarrollo web.',
         quienSoy:
-      '<p class="lead">Soy un ingeniero en computación con sede en la CDMX que se especializa en crear '+
-      '(y ocasionalmente diseña) Aplicaiones Web. Actualmente, soy Sr. MEAN stack developer en AXA y me enfoco '+
-      'en crear productos que ayuden a las personas hacer mas facil su trabajo y a los clientes queden mas satisfechos '+
-      'con la empresa.</p>'
+      'Soy un ingeniero en computación con sede en la CDMX que se especializa en crear (y ocasionalmente diseña) '+
+      'Aplicaciones Web. Actualmente, soy Sr. MEAN stack developer en AXA y me enfoco en crear productos que ayuden '+
+      'a las personas hacer mas fácil su trabajo y a los clientes queden mas satisfechos con la empresa.'
       }
     };
 
