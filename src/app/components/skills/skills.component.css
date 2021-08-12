@@ -109,38 +109,6 @@
 	line-height: 5px;
 }
 
-.progress-table .table-row .percentage .progress .progress-bar.color-1 {
-	background-color: #6382e6;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-2 {
-	background-color: #e66686;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-3 {
-	background-color: #f09359;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-4 {
-	background-color: #73fbaf;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-5 {
-	background-color: #73fbaf;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-6 {
-	background-color: #6382e6;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-7 {
-	background-color: #a367e7;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-8 {
-	background-color: #e66686;
-}
-
 .skills .progress {
 	height: 60px;
 	display: block;
