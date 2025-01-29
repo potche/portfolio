@@ -1,0 +1,144 @@
+.tools_expert {
+	/* box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1); */
+	padding: 50px 15px;
+}
+.tools_expert h3 {
+	color: #222222;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.tools_expert .skill_main .skill_item {
+	margin-bottom: 18px;
+}
+.tools_expert .skill_main .skill_item:last-child {
+	margin-bottom: 0px;
+}
+.tools_expert .skill_main .skill_item h4 {
+	text-align: right;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #777777;
+	margin-bottom: 15px;
+}
+.tools_expert .skill_main .skill_item .progress {
+	height: 13px;
+	border-radius: 10px;
+	background: transparent;
+	border: 1px solid #eeeeee;
+	padding-left: 5px;
+	padding-right: 5px;
+	/* box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2); */
+}
+.tools_expert .skill_main .skill_item .progress .progress-bar {
+	width: 0%;
+	transition: width 0.6s ease;
+	height: 10px;
+	border-radius: 5px;
+	vertical-align: middle;
+	align-self: center;
+	background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+	background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+	background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.progress-table {
+	background: #fff;
+	padding: 15px 0px 30px 0px;
+	min-width: 800px;
+}
+
+.progress-table .serial {
+	width: 11.83%;
+	padding-left: 30px;
+}
+
+.progress-table .country {
+	width: 28.07%;
+}
+
+.progress-table .visit {
+	width: 19.74%;
+}
+
+.progress-table .percentage {
+	width: 40.36%;
+	padding-right: 50px;
+}
+
+.progress-table .table-head {
+	display: flex;
+}
+
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
+	color: #222222;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.progress-table .table-row {
+	padding: 15px 0;
+	border-top: 1px solid #edf3fd;
+	display: flex;
+}
+
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
+	display: flex;
+	align-items: center;
+}
+
+.progress-table .table-row .country img {
+	margin-right: 15px;
+}
+
+.progress-table .table-row .percentage .progress {
+	width: 80%;
+	border-radius: 0px;
+	background: transparent;
+}
+
+.progress-table .table-row .percentage .progress .progress-bar {
+	height: 5px;
+	line-height: 5px;
+}
+
+.skills .progress {
+	height: 60px;
+	display: block;
+	background: none;
+	border-radius: 0;
+}
+
+.skills .progress .skill {
+	padding: 0;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	color: #050d18;
+}
+
+.skills .progress .skill .val {
+	float: right;
+	font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+	background: #dce8f8;
+	height: 10px;
+}
+
+.skills .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: 0.9s;
+	background-color: #149ddd;
+}

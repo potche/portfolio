@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+	min-height: 75rem;
+	padding-top: 3.5rem;
+	font-family: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system,
+		system-ui, sans-serif;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	color: #011b3e;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.section-bg {
+	background: #f5f8fd;
+}
+
+.section-title {
+	padding-bottom: 30px;
+}
+
+.section-title h2 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	color: #173b6c;
+}
+
+.section-title h2::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: #149ddd;
+	bottom: 0;
+	left: 0;
+}
+
+.section-title p {
+	margin-bottom: 0;
+}
